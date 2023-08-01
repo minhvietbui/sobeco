@@ -1,9 +1,16 @@
 <template>
-  <div class="flex flex-col pt-16">
+  <div class="flex flex-col">
     <div
-      class="w-full text-center sm:text-left bg-cover bg-no-repeat bg-center"
+      class="w-full text-center sm:text-left bg-cover bg-no-repeat bg-center relative"
       style="background-image: url('/images/ba1.jpg'); height: 32rem"
-    ></div>
+    >
+      <div
+        class="bottom-3 right-3 absolute text-5xl text-sky-700"
+        style="font-family: 'Edu SA Beginner', cursive"
+      >
+        Sắc màu cuộc sống!
+      </div>
+    </div>
     <div
       class="w-full flex flex-wrap gap-1 p-8 items-center justify-center bg-stone-300"
     >
