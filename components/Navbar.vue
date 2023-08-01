@@ -6,12 +6,43 @@
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
     >
       <a href="#" class="flex items-center">
-        <img src="/images/sobeco-logo.jpeg" class="h-12 mr-3" alt="Sobeco Logo" />
+        <img
+          src="/images/sobeco-logo.jpeg"
+          class="h-12 mr-3"
+          alt="Sobeco Logo"
+        />
         <span
           class="self-center text-2xl font-semibold whitespace-nowrap text-black"
           >SOBECO</span
         >
       </a>
+      <div class="flex md:order-2">
+        <button
+          data-collapse-toggle="navbar-sticky"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-blue-200"
+          aria-controls="navbar-sticky"
+          aria-expanded="false"
+          @click="toggle"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+      </div>
       <div
         class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
         id="navbar-sticky"
@@ -53,3 +84,27 @@
     </div>
   </nav>
 </template>
+<script setup>
+/*import { Collapse } from "flowbite";
+import { watch } from
+
+
+const $targetEl= document.getElementById("navbar-sticky");
+const $triggerEl= document.getElementById('triggerEl');
+const collapse= new Collapse($targetEl, $triggerEl);
+collapse.expand()
+*/
+import { ref, watch } from "vue";
+const show = ref(false);
+function toggle() {
+  show.value = !show.value;
+}
+
+/*watch(show, () => {
+  if (show) {
+    document.getElementById("navbar-sticky").removeAttribute("hidden");
+  } else {
+    document.getElementById("navbar-sticky").setAttribute("hidden");
+  }
+}); */
+</script>

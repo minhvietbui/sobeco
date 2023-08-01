@@ -11,25 +11,26 @@ export default defineNuxtConfig({
       },
     },
   },
-  buildModules: [
-    '@nuxtjs/google-fonts'
-  ],
+  buildModules: ["@nuxtjs/google-fonts"],
   googleFonts: {
     families: {
       Roboto: true,
-      'Josefin+Sans': true,
+      "Josefin+Sans": true,
       Lato: [100, 300],
       Raleway: {
         wght: [100, 400],
-        ital: [100]
+        ital: [100],
       },
-      'Edu+SA+Beginner': {
-        wght: [600]
+      "Edu+SA+Beginner": {
+        wght: [600],
       },
       Quicksand: {
         wght: [300, 400, 500, 600, 700],
-        display: 'swap'
-      }
-    }
-  }
+        display: "swap",
+      },
+    },
+  },
+  content: [
+    "node_modules/flowbite/**/*.{js,jsx,ts,tsx}",
+  ],
 });

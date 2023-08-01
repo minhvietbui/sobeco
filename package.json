@@ -16,6 +16,8 @@
     "nuxt-icon": "^0.4.2"
   },
   "dependencies": {
-    "@nuxtjs/google-fonts": "^3.0.2"
+    "@nuxtjs/google-fonts": "^3.0.2",
+    "flowbite": "^1.8.0",
+    "flowbite-vue": "0.0.17-next.0"
   }
 }

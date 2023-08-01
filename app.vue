@@ -6,6 +6,8 @@
   </div>
 </template>
 <script setup lang="ts">
+import { onMounted } from "vue";
+import { initFlowbite } from "flowbite";
 useHead({
   title: "Sobeco",
   link: [
@@ -15,5 +17,8 @@ useHead({
       href: "/sobeco.ico",
     },
   ],
+});
+onMounted(() => {
+  initFlowbite();
 });
 </script>
