@@ -16,7 +16,7 @@
           >SOBECO</span
         >
       </a>
-      <div class="flex md:order-2">
+      <div class="flex md:order-1">
         <button
           data-collapse-toggle="navbar-sticky"
           type="button"
