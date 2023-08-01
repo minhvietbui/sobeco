@@ -2,9 +2,9 @@
   <footer class="max-w-screen-xl mx-auto">
     <div class="w-full">
       <div
-        class="flex flex-row md:w-full lg:w-full sm:px-1 py-2 sm:py-1 w-full space-y-2 justify-between"
+        class="md:flex md:flex-row md:w-full lg:w-full sm:px-1 py-2 sm:py-1 w-full space-y-2 justify-between"
       >
-        <ul class="flex flex-row flex-wrap">
+        <ul class="md:flex md:flex-row">
           <li class="w-16">
             <a href="https://www.facebook.com/profile.php?id=100085370560711">
               <svg
