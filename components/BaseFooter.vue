@@ -2,10 +2,10 @@
   <footer class="max-w-screen-xl mx-auto">
     <div class="w-full">
       <div
-        class="md:flex md:flex-row md:w-full lg:w-full sm:px-1 py-2 sm:py-1 w-full space-y-2 justify-between"
+        class="md:flex md:flex-row md:w-full lg:w-full sm:px-1 py-2 sm:py-1 w-full space-y-2 justify-between text-center items-center"
       >
-        <ul class="md:flex md:flex-row">
-          <li class="w-16">
+        <div class="md:flex md:flex-row">
+          <div class="w-16 m-auto">
             <a href="https://www.facebook.com/profile.php?id=100085370560711">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -23,10 +23,10 @@
                 />
               </svg>
             </a>
-          </li>
-          <li class="pl-2 pr-2">|</li>
-          <li>
-            <span>
+          </div>
+          <div class="hidden md:block pl-2 pr-2">|</div>
+          <div>
+            <div class="text-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -40,11 +40,11 @@
                 />
                 <path fill="none" d="M0 0h36v36H0z" />
               </svg>
-              mgcpain@gmail.com
-            </span>
-          </li>
-          <li class="pl-2 pr-2">|</li>
-          <li>
+            </div>
+            <div>mgcpain@gmail.com</div>
+          </div>
+          <div class="hidden md:block pl-2 pr-2">|</div>
+          <div class="text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -61,8 +61,8 @@
               </g>
             </svg>
             038 3767636
-          </li>
-        </ul>
+          </div>
+        </div>
         <h5
           class="text-md font-bold text-[#666666] focus:outline-none focus:shadow-outline"
         >

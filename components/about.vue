@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row w-full bg-sky-100" style="height: 42rem">
+  <div class="md:flex md:flex-row w-full h-full bg-sky-100" >
     <div class="flex md:w-1/2">
       <image src="/images/intro.jpg"></image>
     </div>

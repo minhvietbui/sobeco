@@ -11,11 +11,8 @@
         Sắc màu cuộc sống!
       </div>
     </div>
-    <about />
-    <div
-      class="bg-cover bg-no-repeat"
-      style="background-image: url('/images/Sec1.jpg'); height: 68rem"
-    ></div>
+    <about class="md:flex" />
+    <Bo2 class="md:flex" />
   </div>
 </template>
 <script setup></script>
