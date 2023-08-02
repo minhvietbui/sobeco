@@ -24,9 +24,8 @@
               </svg>
             </a>
           </div>
-          <div class="hidden md:block pl-2 pr-2">|</div>
           <div>
-            <div class="text-center">
+            <div class="text-cente pl-4r">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -43,8 +42,7 @@
             </div>
             <div>mgcpain@gmail.com</div>
           </div>
-          <div class="hidden md:block pl-2 pr-2">|</div>
-          <div class="text-center">
+          <div class="text-center pl-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
