@@ -56,13 +56,6 @@
           </li>
           <li>
             <a
-              href="/mausac"
-              class="block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:p-0"
-              >Tìm màu sắc
-            </a>
-          </li>
-          <li>
-            <a
               href="/sanpham"
               class="block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:p-0"
               >Sản Phẩm</a
