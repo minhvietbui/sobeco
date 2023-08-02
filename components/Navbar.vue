@@ -63,13 +63,6 @@
           </li>
           <li>
             <a
-              href="/tuvan"
-              class="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0"
-              >Tư Vấn Khách Hàng</a
-            >
-          </li>
-          <li>
-            <a
               href="/lienhe"
               class="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0"
               >Liên Hệ</a
