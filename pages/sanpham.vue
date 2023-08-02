@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full grid grid-cols-3 auto-cols-max gap-1 items-stretch justify-center bg-stone-300 pt-24"
+    class="w-full md:grid md:grid-cols-3 auto-cols-max gap-1 items-stretch justify-center bg-stone-300 pt-24"
   >
     <template v-for="item in data" :key="item.id">
       <Card
