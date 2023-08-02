@@ -64,13 +64,13 @@
           </li>
         </ul>
         <h5
-          class="text-sm font-medium text-[#666666] focus:outline-none focus:shadow-outline"
+          class="text-md font-bold text-[#666666] focus:outline-none focus:shadow-outline"
         >
           Công ty TNHH MGC PAINT VIỆT NAM
         </h5>
 
         <p
-          class="text-sm text-[#666666] focus:outline-none focus:shadow-outline"
+          class="text-sm font-bold text-[#666666] focus:outline-none focus:shadow-outline"
         >
           Địa chỉ: Ấp 2, xã ấp Hòa Đông, Đức Hòa, Long An
         </p>
