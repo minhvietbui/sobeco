@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="bg-sky-900 fixed w-full z-20 top-0 left-0 border-b border-white-200 bg-opacity-70"
+    class="bg-sky-900 fixed w-full z-20 top-0 left-0 border-b border-white-200"
   >
     <div
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
@@ -58,7 +58,7 @@
             <button
               id="dropdownNavbarLink"
               data-dropdown-toggle="dropdownNavbar"
-              class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+              class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-white focus:text-sky-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
             >
               Sản Phẩm<svg
                 class="w-2.5 h-2.5 ml-2.5"
@@ -78,10 +78,10 @@
             </button>
             <div
               id="dropdownNavbar"
-              class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+              class="z-10 hidden font-normal bg-sky-900 divide-y divide-gray-100 rounded-lg shadow md:w-44 w-5/6 dark:bg-gray-700 dark:divide-gray-600"
             >
               <ul
-                class="py-2 text-sm text-gray-700 dark:text-gray-400"
+                class="py-2 text-sm text-white dark:text-gray-400"
                 aria-labelledby="dropdownLargeButton"
               >
                 <li>
@@ -109,8 +109,8 @@
               <div class="py-1">
                 <a
                   href="/sanpham?type=bottret"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white"
-                  >Bột trét</a
+                  class="block px-4 py-2 text-sm text-white hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white"
+                  >Bột Trét</a
                 >
               </div>
             </div>
