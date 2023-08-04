@@ -87,21 +87,21 @@
                 <li>
                   <a
                     href="/sanpham?type=chongtham"
-                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    class="block px-4 py-2 hover:bg-gray-100 hover:text-sky-900 dark:hover:bg-gray-600 dark:hover:text-white"
                     >Sơn Chống Thấm</a
                   >
                 </li>
                 <li>
                   <a
                     href="/sanpham?type=noithat"
-                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    class="block px-4 py-2 hover:bg-gray-100 hover:text-sky-900 dark:hover:bg-gray-600 dark:hover:text-white"
                     >Sơn Nội Thất</a
                   >
                 </li>
                 <li>
                   <a
                     href="/sanpham?type=ngoaithat"
-                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    class="block px-4 py-2 hover:bg-gray-100 hover:text-sky-900 dark:hover:bg-gray-600 dark:hover:text-white"
                     >Sơn Ngoại Thất</a
                   >
                 </li>
@@ -109,7 +109,7 @@
               <div class="py-1">
                 <a
                   href="/sanpham?type=bottret"
-                  class="block px-4 py-2 text-sm text-white hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white"
+                  class="block px-4 py-2 text-sm text-white hover:bg-gray-100 hover:text-sky-900 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white"
                   >Bột Trét</a
                 >
               </div>
