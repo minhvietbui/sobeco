@@ -3,6 +3,7 @@ export default {
     {
       id: 1,
       title: "CT COLOR – CHỐNG THẤM MÀU",
+      type: "chongtham",
       imageUrl: "/images/sanpham/CTCOLOR.jpg",
       content:
         "Với công nghệ hiện đại và công thức tiên tiến tạo ra màng sơn chống thấm đa năng cao cấp, thành phần dạng lỏng có tính đàn hồi cao, khả năng kháng tia cực tím và chịu được tính khắc nghiệt của khí hậu Việt Nam cho tuổi thọ công trình lâu dài. Sơn chống thấm màu CT- COLOR dễ thi công không cần pha loãng sử dụng trực tiếp lên các cấu trúc tường xi măng, cột đà bê tông, đặc biệt thích hợp với các vách hông nhà mà không sử dụng bột trét và sơn lót.",
@@ -18,6 +19,7 @@ export default {
     {
       id: 2,
       title: "CT -11A – CHỐNG THẤM PHA XI MĂNG",
+      type: "chongtham",
       imageUrl: "/images/sanpham/CT11A.jpg",
       content:
         "Sơn chống thấm CT-11A – pha với Xi măng được sản xuất theo công nghệ hiện đại và công thức tiên tiến có tác dụng ngăn chặn sự thấm nước từ ngoài vào nhưng bề mặt có thể bốc hơi nước dễ dàng nhằm bảo vệ, làm đẹp và tăng độ bền tối đa cho mặt bê tông và cấu trúc bê tông. Sơn CT-11A là chất chống thấm được cấu tạo từ nhựa Acrylic đặc biệt kết hợp với Polysiloxane chất chống thấm đem lại sự khác biệt so với sơn thông thường.",
@@ -32,6 +34,7 @@ export default {
     {
       id: 3,
       title: "NANO SEALER – SƠN LÓT NỘI NGOẠI THẤT",
+      type: "ngoaithat",
       imageUrl: "/images/sanpham/NANOSEALER.jpg",
       content:
         "Sơn lót chống kiềm cao cấp trong nhà NANO SEALER: được sản xuất theo công nghệ hiện đại và công thức tiên tiến tăng cường sự bám dính, có khả năng bịt kín các lỗ rỗng trên bề mặt bê tông, hồ vữa giúp hạn chế những khuyết điểm hay gặp phải của bề mặt tường như: kiềm hoá, muối hoá, ố vàng, đốm màu, …Màng sơn tạo độ bám dính cao giữa bề mặt cần sơn và lớp sơn phủ hoàn thiện.",
@@ -46,6 +49,7 @@ export default {
     {
       id: 4,
       title: "NANO10 – NGOẠI THẤT",
+      type: "ngoaithat",
       imageUrl: "/images/sanpham/NANO10.jpg",
       content:
         "Sơn nước ngoài trời siêu bóng được kết hợp từ nhựa Acrylic 100% phân tử kép và nhựa Silicon từ CHLB Đức giúp ngăn chăn hiệu quả nước thấm vào màng sơn, đồng thời màng sơn có khả năng bốc hơi nước dễ dàng. NANO10 ngoại thất là sơn nước cao cấp siêu bóng có khả năng bảo vệ bề mặt tường bên ngoài chống chịu tác động của thời tiết khắc nghiệt nhờ những tính năng như: chống thấm tuyệt vời, chống rêu mốc, che lấp khe nứt nhỏ, chống ố vàng, chùi rửa tốt, độ che phủ cao.",
@@ -61,6 +65,7 @@ export default {
     {
       id: 5,
       title: "NANO08 – NGOẠI THẤT",
+      type: "ngoaithat",
       imageUrl: "/images/sanpham/NANO08.jpg",
       content:
         "Sơn nước ngoài trời sáng bóng được kết hợp đặc biệt từ nhựa Acrylic nguyên chất 100% và phụ gia chống thấm Silicon từ CHLB Đức giúp ngăn chặn hiệu quả thấm nước vào màng sơn, đồng thời màng sơn có khả năng bốc hơi nước dễ dàng. Bảo vệ bề mặt tường bên ngoài chống chịu tác động của thời tiết khắc nghiệt nhờ những tính năng như: chống thấm tuyệt vời, chống rêu mốc, che lấp khe nứt nhỏ, chống ố vàng, chùi rửa tốt, độ che phủ cao.",
@@ -76,6 +81,7 @@ export default {
     {
       id: 6,
       title: "NANO 06 –  NGOẠI THẤT",
+      type: "ngoaithat",
       imageUrl: "/images/sanpham/NANO06.jpg",
       content:
         "Sơn nước ngoài trời bóng mờ được kết hợp từ nhựa Acrylic 100% có chất lượng cao, giúp bảo vệ mặt tường ngoài trời một cách hữu hiệu với giá cả hợp lý. Sơn ngoại thất NANO06 với bề mặt nhẵn mịn, màu sắc tươi đẹp và khả năng bảo vệ mặt tường bên ngoài chống lại tác động của thời tiết trong điều kiện thường. ",
@@ -91,6 +97,7 @@ export default {
     {
       id: 7,
       title: "NANO X – NGOẠI THẤT",
+      type: "ngoaithat",
       imageUrl: "/images/sanpham/NANOX.jpg",
       content:
         "Sản xuất theo công nghệ tối ưu từ sơn nước gốc Acrylic 100%, bóng mờ có chất lượng cao, giúp bảo vệ mặt tường ngoài trời một cách hữu hiệu với giá cả hợp lý, có bề mặt nhẵn mịn, màu sắc tươi đẹp. NANO X ngoại thất có khả năng bảo vệ mặt tường bên ngoài chống lại tác động của thời tiết trong điều kiện thường. ",
@@ -106,6 +113,7 @@ export default {
     {
       id: 8,
       title: "DECOR 09- Sơn Nội Thất Thanh Lọc Không khí",
+      type: "noithat",
       imageUrl: "/images/sanpham/DECOR09.jpg",
       content:
         "Sử dụng công nghệ Air – Refresher hấp thụ Formadehyde và hương hoa cỏ thiên nhiên trong lành cho không gian nội thất luôn tươi mới, là sản phẩm sơn nội thất cao cấp tiên phong trong việc nâng cao chất lượng không gian sống theo tiêu chuẩn Nhật Bản",
@@ -121,6 +129,7 @@ export default {
     {
       id: 9,
       title: "DECOR 07 – NỘI THẤT",
+      type: "noithat",
       imageUrl: "/images/sanpham/DECOR07.jpg",
       content:
         "Sơn nước trong nhà sáng bóng được kết hợp đặc biệt từ nhựa Nano Acrylic nguyên chất với công nghệ tiên tiến giúp ngôi nhà bạn luôn an toàn, sạch sẽ và bền lâu. sơn DECOR07 nội thất có màng sơn mịn màng rắn chắc giúp lau chùi vết bẩn dễ dàng mà không ảnh hưởng đến màng sơn.",
@@ -136,6 +145,7 @@ export default {
     {
       id: 10,
       title: "DECOR 05 – NỘI THẤT",
+      type: "noithat",
       imageUrl: "/images/sanpham/DECOR05.jpg",
       content:
         "Sơn nước lau chùi vượt bậc tô điểm và mang lại vẻ đẹp cổ điển cho ngôi nhà bạn. Giúp giữ tường nhà luôn sạch đep hơn, vết bẩn dễ dàng được lau chùi mà không ảnh hưởng đến màng sơn.",
@@ -151,6 +161,7 @@ export default {
     {
       id: 11,
       title: "DECOR X – NÔI THẤT",
+      type: "noithat",
       imageUrl: "/images/sanpham/DECORX.jpg",
       content:
         "Sản xuất theo công nghệ tối ưu từ nhựa VAE Copolymer cho độ phủ và độ bám dính cao, màu sắc tươi đẹp, dễ dàng sử dụng.",
@@ -161,6 +172,38 @@ export default {
         properties: "Độ bám dính, phủ cao",
         retain: "Độ bền màu cao",
         cover: "7-9m2/ lít/ lớp",
+      },
+    },
+    {
+      id: 12,
+      title: "BỘT TRÉT NGOẠI THẤT",
+      type: "bottret",
+      imageUrl: "/images/sanpham/BotTretNgoaiThat.jpg",
+      content:
+        "Bột trét tường ngoại thất chất lượng cao, được thiết kế thi công trên những bề mặt tường, trần thô ráp lồi lõm, làm láng mịn bề mặt bị xước sát, lấp các lỗ hổng, vết nứt sâu hoặc để trám phần hư hại do nước trên tường khô.",
+      spec: {
+        type: "",
+        color: "",
+        capacity: "",
+        properties: "",
+        retain: "",
+        cover: "",
+      },
+    },
+    {
+      id: 13,
+      title: "BỘT TRÉT NỘI THẤT",
+      type: "bottret",
+      imageUrl: "/images/sanpham/BotTretNoiThat.jpg",
+      content:
+        "Bột trét tường nội thất chất lượng cao, được thiết kế thi công trên những bề mặt tường, trần thô ráp lồi lõm, làm láng mịn bề mặt bị xước sát, lấp các lỗ hổng, vết nứt sâu hoặc để trám phần hư hại do nước trên tường khô.",
+      spec: {
+        type: "",
+        color: "",
+        capacity: "",
+        properties: "",
+        retain: "",
+        cover: "",
       },
     },
   ],

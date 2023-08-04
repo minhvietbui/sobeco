@@ -6,7 +6,7 @@
         <NuxtPage />
       </main>
     </div>
-    <div class="absolute w-full">
+    <div class="absolute w-full max-h-16">
       <BaseFooter />
     </div>
   </div>
