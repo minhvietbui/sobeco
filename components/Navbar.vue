@@ -6,7 +6,11 @@
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
     >
       <a href="#" class="flex items-center">
-        <img src="/logo.jpg" class="h-12 mr-3" alt="Sobeco Logo" />
+        <img
+          src="/logo.jpg"
+          class="h-12 mr-3 mix-blend-normal object-contain "
+          alt="Sobeco Logo"
+        />
         <span
           class="self-center text-2xl font-semibold whitespace-nowrap text-white"
           >SOBECO</span
@@ -137,7 +141,7 @@ const $triggerEl= document.getElementById('triggerEl');
 const collapse= new Collapse($targetEl, $triggerEl);
 collapse.expand()
 */
-import { ref, watch } from "vue";
+import { ref, watch } from 'vue';
 const show = ref(false);
 function toggle() {
   show.value = !show.value;
