@@ -41,7 +41,7 @@
       </tbody>
     </table>
     <div>
-      <CreateType @create.once="createType" />
+      <CreateType @create="createType" />
     </div>
   </div>
 </template>
