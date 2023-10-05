@@ -5,7 +5,7 @@
     <template v-for="item in items" :key="item.id">
       <Card
         :id="item.id"
-        :title="item.title"
+        :name="item.name"
         :spec="item.spec"
         :content="item.content"
         :imageUrl="item.imageUrl"

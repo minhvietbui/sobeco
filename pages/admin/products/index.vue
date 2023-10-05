@@ -8,7 +8,7 @@
     <template v-for="item in products.data" :key="item.id">
       <Card
         :id="item.id"
-        :title="item.name"
+        :name="item.name"
         :spec="item.spec"
         :content="item.content"
         :imageUrl="item.imageUrl"
