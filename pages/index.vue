@@ -12,7 +12,7 @@
       </div>
     </div>
     <about class="md:flex" />
-    <Bo2 class="md:flex" />
+    <Product class="md:flex" />
   </div>
 </template>
 <script setup></script>

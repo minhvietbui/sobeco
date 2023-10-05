@@ -8,7 +8,7 @@
       <a href="#" class="flex items-center">
         <img
           src="/logo.jpg"
-          class="h-12 mr-3 mix-blend-normal object-contain "
+          class="h-12 mr-3 mix-blend-normal object-contain"
           alt="Sobeco Logo"
         />
         <span
@@ -88,35 +88,14 @@
                 class="py-2 text-sm text-white dark:text-gray-400"
                 aria-labelledby="dropdownLargeButton"
               >
-                <li>
+                <li v-for="item in types.data" :key="item.id">
                   <a
-                    href="/sanpham?type=chongtham"
+                    :href="'/sanpham?type=' + item.id"
                     class="block px-4 py-2 hover:bg-gray-100 hover:text-sky-900 dark:hover:bg-gray-600 dark:hover:text-white"
-                    >Sơn Chống Thấm</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="/sanpham?type=noithat"
-                    class="block px-4 py-2 hover:bg-gray-100 hover:text-sky-900 dark:hover:bg-gray-600 dark:hover:text-white"
-                    >Sơn Nội Thất</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="/sanpham?type=ngoaithat"
-                    class="block px-4 py-2 hover:bg-gray-100 hover:text-sky-900 dark:hover:bg-gray-600 dark:hover:text-white"
-                    >Sơn Ngoại Thất</a
+                    >{{ item.title }}</a
                   >
                 </li>
               </ul>
-              <div class="py-1">
-                <a
-                  href="/sanpham?type=bottret"
-                  class="block px-4 py-2 text-sm text-white hover:bg-gray-100 hover:text-sky-900 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white"
-                  >Bột Trét</a
-                >
-              </div>
             </div>
           </li>
           <li>
@@ -147,6 +126,11 @@ function toggle() {
   show.value = !show.value;
 }
 
+const types = ref({});
+onBeforeMount(async () => {
+  types.value = await useFetch('/api/types');
+
+});
 /*watch(show, () => {
   if (show) {
     document.getElementById("navbar-sticky").removeAttribute("hidden");

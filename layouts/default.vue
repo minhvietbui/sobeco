@@ -1,12 +1,14 @@
 <template>
   <div class="w-full h-full min-h-screen font-sans antialiased">
-    <navbar />
     <div>
+      <navbar />
+    </div>
+    <div class="pb-3 max-h-full">
       <main>
         <NuxtPage />
       </main>
     </div>
-    <div class="absolute w-full max-h-16">
+    <div class="bottom-0 w-full">
       <BaseFooter />
     </div>
   </div>
