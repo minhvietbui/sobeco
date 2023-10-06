@@ -4,6 +4,9 @@ const supabase = useSupabaseClient();
 const signInWithOtp = async () => {
   const { error } = await supabase.auth.signInWithOAuth({
     provider: 'google',
+    options: {
+      redirectTo: 'https://sobeco.vercel.app/admin/products',
+    },
   });
   if (error) console.log(error);
 };
