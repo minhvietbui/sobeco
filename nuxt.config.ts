@@ -40,7 +40,7 @@ export default defineNuxtConfig({
     redirect: true,
     redirectOptions: {
       login: '/auth/login',
-      callback: '/auth/confirm',
+      callback: '/admin/products',
       exclude: ['/', '/sanpham', '/lienhe', '/gioithieu', '/auth/signup'],
     },
     clientOptions: {
