@@ -2,9 +2,9 @@
   <footer class="max-w-screen-xl mx-auto">
     <div class="w-full">
       <div
-        class="md:flex md:flex-row md:w-full lg:w-full sm:px-1 py-2 sm:py-1 w-full space-y-2 justify-between text-center items-center"
+        class="flex flex-col md:flex-row md:w-full sm:px-1 py-2 sm:py-1 w-full space-y-2 justify-between text-center items-center"
       >
-        <div class="md:flex md:flex-row">
+        <div class="flex justify-center">
           <div class="w-16 m-auto">
             <a href="https://www.facebook.com/profile.php?id=100085370560711">
               <svg
@@ -25,7 +25,7 @@
             </a>
           </div>
           <div>
-            <div class="text-cente pl-4r">
+            <div class="flex justify-center pl-4r">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -42,7 +42,7 @@
             </div>
             <div>mgcpain@gmail.com</div>
           </div>
-          <div class="text-center pl-4">
+          <div class="flex flex-col justify-center items-center pl-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -58,7 +58,7 @@
                 />
               </g>
             </svg>
-            038 3767636
+            <div>038 3767636</div>
           </div>
         </div>
         <h5

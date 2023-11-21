@@ -9,19 +9,21 @@
         :spec="item.spec"
         :content="item.content"
         :imageUrl="item.imageUrl"
-        :isUser=false
+        :isUser="false"
       />
     </template>
   </div>
 </template>
 <script setup>
-import { ref, computed } from 'vue';
+import { computed } from 'vue';
 
 const route = useRoute();
 const type = parseInt(route.query.type ? route.query.type : 0);
-const products = await useFetch('/api/products');
+const { data } = await useFetch('/api/products');
+const products = toValue(data);
+
 const items = computed(() => {
-  if (type === 0) return products.data.value;
-  return products.data.value.filter((item) => item.typeId === type);
+  if (type === 0) return products;
+  return products.filter((item) => item.typeId === type);
 });
 </script>
