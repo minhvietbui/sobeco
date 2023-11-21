@@ -12,7 +12,9 @@ const signInWithOtp = async () => {
 };
 </script>
 <template>
-  <div class="max-w-[400px] mx-auto px-2 mt-32 pb-80">
+  <div
+    class="max-w-[400px] mx-auto flex flex-col justify-between items-center pt-20 md:pt-60 md:pb-60"
+  >
     <div class="text-center my-6">Login</div>
     <button
       @click="signInWithOtp"

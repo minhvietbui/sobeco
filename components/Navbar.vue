@@ -100,6 +100,13 @@
           </li>
           <li>
             <a
+              href="/auth/login"
+              class="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0 md:hover:text-blue-700"
+              >Đăng Nhập</a
+            >
+          </li>
+          <li>
+            <a
               href="/lienhe"
               class="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0 md:hover:text-blue-700"
               >Liên Hệ</a
