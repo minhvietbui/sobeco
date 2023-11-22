@@ -30,6 +30,8 @@
       class="rounded-t-lg m-auto h-[180px] w-[170px]"
       :src="imageUrl"
       provider="supabase"
+      loading="lazy"
+      format="webp"
     />
 
     <div class="p-5">
