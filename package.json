@@ -9,20 +9,20 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@nuxtjs/supabase": "^1.1.2",
-    "@nuxtjs/tailwindcss": "^6.8.0",
-    "@types/node": "^18.18.1",
-    "nuxt": "^3.7.4",
-    "nuxt-icon": "^0.4.2",
-    "prisma": "^5.4.1"
+    "@nuxt/devtools": "^1.0.3",
+    "@nuxtjs/supabase": "^1.1.4",
+    "@nuxtjs/tailwindcss": "^6.10.0",
+    "@types/node": "^20.9.4",
+    "nuxt": "^3.8.2",
+    "nuxt-icon": "^0.6.6",
+    "prisma": "^5.6.0"
   },
   "dependencies": {
-    "@nuxt/image": "1.0.0-rc.3",
+    "@nuxt/image": "1.1.0",
     "@nuxtjs/google-fonts": "^3.0.2",
-    "@prisma/client": "5.4.1",
-    "@supabase/supabase-js": "^2.37.0",
-    "flowbite": "^1.8.1",
-    "flowbite-vue": "0.0.17-next.0"
+    "@prisma/client": "5.6.0",
+    "@supabase/supabase-js": "^2.38.5",
+    "flowbite": "^2.2.0",
+    "flowbite-vue": "0.1.0"
   }
 }
